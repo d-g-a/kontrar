@@ -1,0 +1,17 @@
+{
+    "Header": {
+        "About": "About"
+    },
+    "About": {
+        "Title": "About",
+        "Text": "Kontras is cool"
+    },
+    "Footer": {
+        "Social":{
+            "Instagram": "@kontraer.berlin",
+            "Email": "hello@kontrar.com"
+        },
+        "Address": "Winsstraße 53, Berlin"
+    }
+
+}
