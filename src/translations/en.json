@@ -1,10 +1,11 @@
 {
+    "en": "EN",
     "Header": {
-        "About": "About"
+        "About": "About Us"
     },
     "About": {
-        "Title": "About",
-        "Text": "Kontras is cool"
+        "Title": "About Us",
+        "Text": "Konträr is cool"
     },
     "Footer": {
         "Social":{

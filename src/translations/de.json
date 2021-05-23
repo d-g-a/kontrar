@@ -1,3 +1,18 @@
 {
-    
+    "de": "DE",
+    "Header": {
+        "About": "Über Uns"
+    },
+    "About": {
+        "Title": "Über Uns",
+        "Text": "Konträr ist cool"
+    },
+    "Footer": {
+        "Social":{
+            "Instagram": "@kontraer.berlin",
+            "Email": "hello@kontrar.com"
+        },
+        "Address": "Winsstraße 53, Berlin"
+    }
+
 }

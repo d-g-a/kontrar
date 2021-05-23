@@ -1,13 +1,29 @@
 import React from 'react'
+import { useIntl } from 'react-intl';
 
- const About = () => {
+ const About = (props) => {
+    const { onChange } = props;
+    const intl = useIntl();
+
     return (
         <div>
-            <h2>About</h2>
+            <button
+            type="button"
+            onClick={onChange('en')}
+            >
+                {intl.formatMessage({ id: 'en' })}
+            </button>
+            <button
+            type="button"
+            onClick={onChange('de')}
+            >
+                {intl.formatMessage({ id: 'de' })}
+            </button>
+            <h2>
+                {intl.formatMessage({ id: 'About.Title' })}
+            </h2>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                {intl.formatMessage({ id: 'About.Text' })}
             </p>
         </div>
     )
