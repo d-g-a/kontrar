@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Garaje_Mid_0503_Black_205TF';
+  src: url('./typeface/Garaje_Mid_0503_Black_205TF.woff2') format('woff2'),
+       url('./typeface/Garaje_Mid_0503_Black_205TF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garaje_Mid_0503_Bold_205TF';
+  src: url('./typeface/Garaje_Mid_0503_Bold_205TF.woff2') format('woff2'),
+       url('./typeface/Garaje_Mid_0503_Bold_205TF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garaje_Mid_0503_Medium_205TF';
+  src: url('./typeface/Garaje_Mid_0503_Medium_205TF.woff2') format('woff2'),
+       url('./typeface/Garaje_Mid_0503_Medium_205TF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garaje_Mid_0503_Book_205TF';
+  src: url('./typeface/Garaje_Mid_0503_Book_205TF.woff2') format('woff2'),
+       url('./typeface/Garaje_Mid_0503_Book_205TF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
