@@ -15,7 +15,7 @@ import styles from './About.module.scss'
                 >
                     {intl.formatMessage({ id: 'en' })}
                 </button>
-                -
+                /
                 <button
                 type="button"
                 onClick={onChange('de')}

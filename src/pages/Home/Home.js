@@ -1,20 +1,22 @@
-import React from 'react'
-import KontrarLogoDesktop from '../../images/KontrarLogoDesktop.svg'
+import React from 'react';
+import KontrarLogoDesktop from '../../images/KontrarLogoDesktop.svg';
+import styles from './Home.module.scss';
+
 
 const Logo = () => (
     <div>
          <img 
             src={KontrarLogoDesktop}
             alt="Konträr"
-            height="120"
+            height="140"
             />
     </div>
 );
 
 const Home = () => {
     return (
-        <div>
-            <Logo />
+        <div className={styles.Home}>
+            <Logo className={styles.Logo} />
         </div>
     )
 }

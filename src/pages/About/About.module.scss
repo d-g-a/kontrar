@@ -1,4 +1,9 @@
 .About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
     color: #ffffff;
     background-color: #FF0000;
     font-family: 'Garaje_Mid_0503_Book_205TF';
@@ -11,7 +16,7 @@
         cursor: pointer;
         margin: 0;
         padding: 0;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     h2{

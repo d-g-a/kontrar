@@ -1,11 +1,11 @@
 import {IntlProvider } from 'react-intl';
 import { useState } from 'react';
-import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Footer from './components/Footer/Footer'
-import flattenMessages from './utils/flattenMessages';
-import enMessages from './translations/en.json';
-import deMessages from './translations/de.json';
+import Home from '../pages/Home/Home';
+import About from '../pages/About/About';
+import Footer from '../components/Footer/Footer'
+import flattenMessages from '../utils/flattenMessages';
+import enMessages from '../translations/en.json';
+import deMessages from '../translations/de.json';
 
 const messages = {
   en: enMessages,
