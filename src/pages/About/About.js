@@ -23,12 +23,14 @@ import styles from './About.module.scss'
                     {intl.formatMessage({ id: 'de' })}
                 </button>
             </div>
-            <h2>
-                {intl.formatMessage({ id: 'About.Title' })}
-            </h2>
-            <p>
-                {intl.formatMessage({ id: 'About.Text' })}
-            </p>
+            <div className={styles.Texts}>
+                <h2  >
+                    {intl.formatMessage({ id: 'About.Title' })}
+                </h2>
+                <p>
+                    {intl.formatMessage({ id: 'About.Text' })}
+                </p>
+            </div>
         </div>
     )
 }
