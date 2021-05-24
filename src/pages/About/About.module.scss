@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 2em;
     height: 90vh;
     color: #ffffff;
     background-color: #FF0000;
@@ -45,7 +46,7 @@
             font-family: 'Garaje_Mid_0503_Bold_205TF';
             font-size: 32;
             padding: 0;
-            margin-bottom: 1zem;
+            margin-bottom: 1em;
         }
 
         p {
@@ -55,6 +56,10 @@
             margin: 0;
         }
 
+    }
+
+    @media(max-width:600px ){
+        height: 70vh;
     }
 
 

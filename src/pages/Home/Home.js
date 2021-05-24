@@ -1,14 +1,15 @@
 import React from 'react';
 import KontrarLogoDesktop from '../../images/KontrarLogoDesktop.svg';
+import KontrarLogoMobile from '../../images/KontrarLogoMobile.svg';
 import styles from './Home.module.scss';
 
 
 const Logo = () => (
     <div>
          <img 
-            src={KontrarLogoDesktop}
+            src={window.screen.width <= 600 ? KontrarLogoMobile : KontrarLogoDesktop}
             alt="Konträr"
-            height="140"
+            height={window.screen.width <= 600 ? 240 : 150}
             />
     </div>
 );

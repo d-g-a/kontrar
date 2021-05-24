@@ -21,7 +21,21 @@
                 color: #ff0000;
                 cursor: pointer;
                 font-size: 16px;
+
+                a:hover{
+                    text-decoration: underline;
+                }
             }
+        }
+       @media(max-width:600px ){
+        height: 30vh;
+        flex-direction: column;
+
+        li{
+            padding: 20px 0;
+            font-size: 18px;
+        }
+
         }
     }
 
